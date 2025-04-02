@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {
     TypographyBlockquote,
     TypographyH1,
-} from '@/components/ui/typography/typography';
+} from '@/components/typography/typography';
 import { getPostSlugs, getPostData } from '@/lib/blog';
 import { Button } from '@/components/ui/button';
 
