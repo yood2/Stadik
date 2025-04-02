@@ -1,3 +1,9 @@
+---
+title: 'My First Post'
+date: '2025-04-02'
+tags: ['nextjs', 'blog', 'typescript']
+---
+
 # Header 1: Main Title
 
 Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex

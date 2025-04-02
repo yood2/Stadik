@@ -8,4 +8,4 @@
 
 -   All the typography is styled using Tailwind classes. You can change these
     yourself by editing them from the `components/typography/typography.tsx`
-    file
+    files
