@@ -3,17 +3,17 @@ import {
     TypographyBlockquote,
     TypographyH1,
     TypographyMuted,
-    TypographyP,
     TypographySmall,
 } from '@/components/typography/typography';
 import { getPostSlugs, getPostData } from '@/lib/blog';
 import { Button } from '@/components/ui/button';
 import { RightArrow } from '@/components/radix/icons';
 import TagBadges from '@/components/badges/tag-badges';
+import PostList from '@/components/post-list/post-list';
 
 export default async function Home() {
-    const slugs = getPostSlugs();
-    const posts = slugs
+    const slugs: string[] = getPostSlugs();
+    const posts: any[] = slugs
         .map((slug) => {
             const postData = getPostData(slug);
             return { slug, data: postData.data };
@@ -44,22 +44,7 @@ export default async function Home() {
                     </TypographySmall>
                 </TypographyBlockquote>
             </div>
-            <ul>
-                {posts.map((post) => (
-                    <li key={post.slug}>
-                        <div className="flex items-center gap-x-4">
-                            <RightArrow />
-                            <Link href={`/${post.slug}`}>
-                                <Button variant="link">
-                                    {post.data.title}
-                                    {post.data.date}
-                                </Button>
-                            </Link>
-                            <TagBadges tags={post.data.tags}></TagBadges>
-                        </div>
-                    </li>
-                ))}
-            </ul>
+            <PostList posts={posts} />
         </>
     );
 }
