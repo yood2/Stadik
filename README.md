@@ -1,5 +1,5 @@
 # Stadik
-A simple static site generator based in Next.js and styled with shadcn/ui components.
+A simple static site generator where you can dynamically render your markdown files as blog posts. Based in Typescript and Next.js. Styled with shadcn/ui components.
 
-### Why did I make this?
-I'm familiar with Next.js and wanted a static site generator that could easily be customized using pre-existing TS/React knowledge.
+![default homepage](stadik/public/assets/home_screenshot.png)
+![default post](stadik/public/assets/post_screenshot.png)
