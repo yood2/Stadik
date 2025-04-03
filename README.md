@@ -8,13 +8,10 @@ A simple static site generator where you can dynamically render your markdown fi
     - `npm run build` & `npm run start`
 
 #### Screenshots
-<center>
-Dynamically render your markdown files as a list of posts.</center>
 
 ![default homepage](stadik/public/assets/home_screenshot.png)
-
-<center>Parses and renders your markdown content.</center>
+Dynamically render your markdown files as a list of posts.
 
 ![default post](stadik/public/assets/post_screenshot.png)
-
+Parses and renders your markdown content.
 ---
