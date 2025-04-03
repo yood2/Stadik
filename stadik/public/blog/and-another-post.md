@@ -1,6 +1,6 @@
 ---
-title: 'My First Post'
-date: '2025-03-31'
+title: '...And Another Post'
+date: '2025-04-02'
 tags: 'nextjs, blog, typescript'
 ---
 

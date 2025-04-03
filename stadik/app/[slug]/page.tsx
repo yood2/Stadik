@@ -5,7 +5,6 @@ import {
     TypographyMuted,
 } from '@/components/typography/typography';
 import MarkdownRenderer from '@/components/markdown-renderer/markdown-renderer';
-import { Card, CardContent, CardHeader } from '@/components/ui/card';
 
 interface PageProps {
     params: {
@@ -27,11 +26,15 @@ export default async function BlogPost({ params }: PageProps) {
     }
 
     return (
-        <div>
-            <TypographyH1>{post?.data.title}</TypographyH1>
-            <TypographyMuted>Tags: {post?.data.tags}</TypographyMuted>
-            <TypographyMuted>{post?.data.date}</TypographyMuted>
-            <MarkdownRenderer content={post?.content} />
-        </div>
+        <>
+            <div>
+                <div>
+                    <TypographyH1>{post?.data.title}</TypographyH1>
+                    <TypographyMuted>{post?.data.tags}</TypographyMuted>
+                    <TypographyMuted>{post?.data.date}</TypographyMuted>
+                </div>
+                <MarkdownRenderer content={post?.content} />
+            </div>
+        </>
     );
 }
