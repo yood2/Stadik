@@ -14,4 +14,5 @@ Dynamically render your markdown files as a list of posts.
 
 ![default post](stadik/public/assets/post_screenshot.png)
 Parses and renders your markdown content.
+
 ---
