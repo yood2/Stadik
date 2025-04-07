@@ -14,5 +14,17 @@ Dynamically render your markdown files as a list of posts.
 
 ![default post](stadik/public/assets/post_screenshot.png)
 Parses and renders your markdown content.
-
 ---
+
+#### To-do List
+- Markdown syntax rendering
+    - Ordered Lists
+    - Unordered Lists
+    - Blockquotes
+    - Bold and Italics
+    - Code blocks
+    - Horizontal Rules
+    - Links
+    - Tables
+- Refactoring Markdown Rendering Component
+- Homepage Config File

@@ -1,7 +1,7 @@
 ---
 title: 'Another Post'
 date: '2025-04-01'
-tags: 'nextjs, blog, typescript'
+tags: 'different, tags'
 ---
 
 ![image info here](/assets/cat.jpg)
